@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <section className="header w-full h-[70vh] relative"
             style={{
-                backgroundImage: 'url("headerbackground.jpg")', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', objectFit: 'contain'
+                backgroundImage: 'url("header.jpg")', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', objectFit: 'fill'
             }}
         >
             <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 container mx-auto">
@@ -25,8 +25,8 @@ export default function Header() {
                         <WhatssAppButton/>
                     </div>
                 </div>
-                <div className="col-1 hidden md:flex w-full h-full relative items-end z-50 ">
-                    <Image src="/laywer-one.png" alt="the laywer" width={'1000'} height={'1000'} className='absolute w-full h-[90%] object-contain opacity-[0.9] ' />
+                <div className="col-1 hidden md:flex w-full h-full relative items-end  z-50">
+                    <Image src="/laywer-header.png" alt="the laywer" width={'1000'} height={'1000'} className='absolute w-fit h-[90%] object-contain opacity-[0.9] scale-x-[-1] ' />
                 </div>
             </div>
         </section>

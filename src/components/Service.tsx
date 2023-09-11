@@ -3,7 +3,8 @@ import WhatssAppButton from "./WhatssAppButton";
 
 export default function Service() {
     return (
-        <section className="w-full h-full relative service " style={{
+        <section className="w-full h-full relative service "
+         style={{
             backgroundImage: 'url("service_header.jpg")', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', objectFit: 'contain'
         }} >
             <div className="container mx-auto h-full px-2 md:px-0 ">
