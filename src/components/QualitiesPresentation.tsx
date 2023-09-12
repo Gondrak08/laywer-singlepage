@@ -50,7 +50,7 @@ export default function QualitiesPressentation() {
                         )
                     }
                 </div>
-                <div className="my-5 md:my-0 mx-auto">
+                <div className="my-5 md:my-0 mx-auto z-30">
                     <WhatssAppButton />
                 </div>
             </div>
