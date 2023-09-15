@@ -9,7 +9,7 @@ export default function Service() {
         }} >
             <div className="container mx-auto h-full px-2 md:px-0 ">
                 <div className="w-full grid grid-cols-1 md:grid-cols-2 py-24 z">
-                    <div className="w-full h-full flex flex-col gap-5 z-50">
+                    <div className="w-full h-full flex flex-col gap-5 z-50 animation">
                         <h3 className="text-2xl md:text-4xl text-white font-bold" >
                             Serviço jurídico exepcional <span className="text-app-yellow" >e personalizado</span>
                         </h3>
@@ -25,7 +25,7 @@ export default function Service() {
                             <WhatssAppButton/>
                         </div>
                     </div>
-                    <div className='w-full h-full hidden md:flex flex-col justify-center z-50' >
+                    <div className='animation w-full h-full hidden md:flex flex-col justify-center z-50' >
                         <Image src="/justice.png" alt="justice" width={"1000"}  height={"1000"} className='h-[27em] object-contain opacity-[.45]'/>
                     </div>
                 </div>

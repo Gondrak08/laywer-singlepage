@@ -7,8 +7,8 @@ export default function Header() {
                 backgroundImage: 'url("header.jpg")', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat', objectFit: 'fill'
             }}
         >
-            <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 container mx-auto">
-                <div className="col-1 flex flex-col justify-center gap-8 p-3">
+            <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 container mx-auto animation">
+                <div className="col-1 flex flex-col justify-center gap-8 p-3 ">
                     <div className='w-full h-fit flex flex-col gap-4 z-50'>
                         <h1 className='text-app-yellow text-3xl uppercase font-bold ' >advogado trabalhista</h1>
                         <h2 className='text-2xl text-white font-bold'>
